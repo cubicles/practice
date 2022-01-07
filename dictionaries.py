@@ -54,3 +54,16 @@ tweet_items = tweet.items()
 "user" in tweet_keys    # True, but not Pythonic
 "user" in tweet         # Pythonic way of checking for keys
 "joelgrus" in tweet_values # True (slow but the only way to check)
+
+# Para poder hacer uso de algunas teclas rápidas de VIM, hoy aprendimos 
+# lo siguiente
+
+# :wq       Salir y escribir (write+quit)
+# :x        Salir y escribir solo si hay cambios (:q! + :w)
+# ZZ        Forma alternativa de salir
+
+# ^+Y       Scroll down
+# ^+E       Scroll up
+# zz        Posicionar la linea actual en la MITAD de la pantalla
+#           (Particularmente siento que este es el más útil que encontré hoy,
+#           me recuerda al ctrl+F de cadence
