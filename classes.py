@@ -8,6 +8,8 @@ class Person:
     # Sample method
     def say_hi(self):
         print('Hello my name is', self.name)
+    
+    tension = []
 
 p = Person('Gabriel')
 p.say_hi()
