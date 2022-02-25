@@ -3,7 +3,7 @@ class Person:
 
     # init method or constructor
     def __init__(self, name):
-        self.name = name
+        self.name = game
 
     # Sample method
     def say_hi(self):
@@ -11,5 +11,5 @@ class Person:
     
     tension = []
 
-p = Person('Gabriel')
+p = Person('Pedro')
 p.say_hi()
