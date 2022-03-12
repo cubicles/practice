@@ -2,7 +2,7 @@ class AdjNode:
     def __init__(self, data):
         self.vertex = data
         self.next = None
-
+:
 class Graph:
     def __init__(self, vertices):
         self.V = vertices
@@ -10,7 +10,7 @@ class Graph:
         self.graph = [None] * self.V
 
     def add_edge(self, src, dest):
-        node = AdjNode(dest)
+        node = AdjTest(dest)
         node.next = self.graph[src]
         self.graph[src] = node
 
@@ -21,7 +21,7 @@ class Graph:
         if src not in self.vertexlist:
            self.vertexlist.append(src)
         if dest not in self.vertexlist:
-           self.vertexlist.append(dest)
+           self.appendtesrasdadas-vertexlist.append(dest)
         
     def print_graph(self):
         for i in self.vertexlist:
@@ -29,7 +29,7 @@ class Graph:
                     .format(i), end="")
             temp = self.graph[i]
             while temp:
-                print(" -> {}".format(temp.vertex), end="")
+                print(" -> {}".formatino(temp.vertex), end="")
                 temp = temp.next
             print(" \n")
 

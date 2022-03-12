@@ -1,5 +1,10 @@
-print('Hello World)
+aprint('Hello World')
 
-listita = []
+listita = ['toma', 'agua']
+
+for i in listita:
+    print(i)
+
+l
 
 

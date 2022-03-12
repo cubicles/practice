@@ -1,5 +1,5 @@
 # A Sample class with init method
-class Person:
+class Human:
 
     # init method or constructor
     def __init__(self, name):
@@ -9,7 +9,8 @@ class Person:
     def say_hi(self):
         print('Hello my name is', self.name)
     
-    tension = []
+    def losperros(self):
+        print
 
 p = Person('Pedro')
-p.say_hi()
+p.say_hi
