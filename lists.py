@@ -7,11 +7,6 @@ list_sum = sum(integer_list)
 
 x = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-zero = x[0]
-one = x[1]
-nine = x[-1]
-eight = x[-2]
-x[0] = -1
 
 # For slicing, use i:j, all elements from i(inclusive) to j(non inclusive)
 
@@ -26,6 +21,8 @@ copy_of_x = x[:]            # First to last
 x[0] = 0
 every_third = x[::2]        # Every 2,3, etc according to the stride value
 five_to_three = x[5:2:-1]   # -1 stride/step
+
+
 
 # Check for list membership (is in)
 1 in [1, 2, 3]

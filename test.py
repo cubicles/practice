@@ -1,10 +1,11 @@
-aprint('Hello World')
+listita = ['papa', 'camote']
 
-listita = ['toma', 'agua']
+listita.append('beterraga')
+print(listita)
 
-for i in listita:
-    print(i)
+class graph:
+    def __init__(self, name):
+        self.nombre = name
 
-l
-
-
+jack = graph('boby')
+print(jack.nombre)

@@ -10,7 +10,7 @@ class Graph:
         self.graph = [None] * self.V
 
     def add_edge(self, src, dest):
-        node = AdjTest(dest)
+        node = TestingStuff(dest)
         node.next = self.graph[src]
         self.graph[src] = node
 
